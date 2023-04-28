@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.2 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2023.04.28 à 11:13:32 AM CET 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.tekup.de/country/ws/ProducingWebService">
+    <schemaBindings map="false">
+      <package name="de.tekup.country.ws.producingwebservice"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest">
+      <class ref="de.tekup.country.ws.producingwebservice.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="de.tekup.country.ws.producingwebservice.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="de.tekup.country.ws.producingwebservice.Country"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="de.tekup.country.ws.producingwebservice.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+
