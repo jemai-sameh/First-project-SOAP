@@ -24,6 +24,5 @@ public class CountryEndpoint {
         GetCountryResponse response = new GetCountryResponse();
         response.setCountry(countryRepository.findCountry(request.getName()));
         return response;
-
     }
 }
